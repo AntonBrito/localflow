@@ -1,8 +1,9 @@
 <script>
+  import ReviewItem from "./ReviewItem.svelte";
   export let review = []
-  console.log(review)
+  
 </script>
 
 {#each review as rv (rv.id)}
-  <h3>{rv.text}</h3>
+  <ReviewItem item={rv} />
 {/each}
