@@ -1,5 +1,6 @@
 <script>
-	import ReviewList from "./components/ReviewList.svelte"
+	import ReviewList from "./components/ReviewList.svelte";
+	import Nav from './components/Nav.svelte'
 
 
 	let review = [
@@ -20,7 +21,7 @@
 	]
 
 </script>
-
+<Nav />
 <main class="container">
 	<ReviewList {review}/>
 </main>
