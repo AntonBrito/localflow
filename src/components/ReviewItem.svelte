@@ -20,7 +20,7 @@
     left: -10px;
     width: 50px;
     height: 50px;
-    background: #99CCFF;
+    background: #204f6e;
     color: #fff;
     border: 1px #eee solid;
     border-radius: 50%;
