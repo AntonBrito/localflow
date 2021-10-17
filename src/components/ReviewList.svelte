@@ -3,4 +3,6 @@
   console.log(review)
 </script>
 
-Review List
+{#each review as rv (rv.id)}
+  <h3>{rv.text}</h3>
+{/each}
