@@ -7,7 +7,7 @@
   <div class="num-display">
     {item.rating}
   </div>
-  <div class="close">X</div>
+  <button class="close">X</button>
   <p class="text-display">
     {item.text}
   </p>
@@ -33,6 +33,8 @@
     position: absolute;
     top: 10px;
     right: 20px;
-    cursor: pointer
+    cursor: pointer;
+    background: none;
+    border: none;
   }
 </style>
