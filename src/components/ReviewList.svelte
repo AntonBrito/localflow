@@ -5,5 +5,5 @@
 </script>
 
 {#each review as rv (rv.id)}
-  <ReviewItem item={rv} />
+  <ReviewItem item={rv} on:delete-review />
 {/each}
