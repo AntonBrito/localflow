@@ -21,8 +21,7 @@
 
 </script>
 
-<main>
-	
+<main class="container">
 	<ReviewList {review}/>
 </main>
 
